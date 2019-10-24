@@ -7,8 +7,8 @@ def find_element_index(array, value_to_find)
     end
   end
 end
-scale = [2,3,4,5]
-find_element_index(scale,9)
+#scale = [2,3,4,5]
+#find_element_index(scale,9)
 
 
 def find_max_value(array)
