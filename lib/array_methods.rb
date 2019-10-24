@@ -1,11 +1,10 @@
 def find_element_index(array, value_to_find)
   array.size.times do |index|
-   p array [index]
-   # if array[index] == value_to_find
-    #  return index
+   if array[index] == value_to_find
+    p index
   #  else
    #   return nil
-    #end
+    end
   end
 end
 scale = [2,3,4,5]
