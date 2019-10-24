@@ -10,7 +10,11 @@ find_element_index(scale,8)
 
 
 def find_max_value(array)
-  # Add your solution here
+  max=array[0]
+  array.size.times do |count|
+    max=array[count] if max<array[count]
+  end
+  return max
 end
 
 def find_min_value(array)
