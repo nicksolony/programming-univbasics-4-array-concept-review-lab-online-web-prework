@@ -7,7 +7,7 @@ def find_element_index(array, value_to_find)
     end
   end
 end
-array=[1,2,3]
+scale = [2,3,4,5]
 find_element_index(array,5)
 
 
