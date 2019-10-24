@@ -3,7 +3,7 @@ def find_element_index(array, value_to_find)
   # if array[index] == value_to_find
     return index if array[index] == value_to_find
   end
-end
+  nil
 scale = [2,3,4,5]
 find_element_index(scale,4)
 
